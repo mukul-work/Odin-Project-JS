@@ -72,3 +72,8 @@ console.log(text.slice(3, 12));
 // concatenation
 console.log(greeting2.concat(" ",userName));
 
+// replace
+console.log(userName.replace('ul','esh'));
+newUserName = userName.repeat(2);
+console.log(newUserName.replace('ul','esh'));
+console.log(newUserName.replaceAll('ul','esh'));
